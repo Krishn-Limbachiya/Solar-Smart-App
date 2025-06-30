@@ -1,26 +1,93 @@
-Step-by-Step Setup Guide for set up SolarSmart with Python 3.13:
+# Solar Smart App
 
-**Step 1:** Check Your Python Version
+A smart solar energy management application built with Python and Streamlit.
 
-bashpython --version
-# Should show Python 3.13.x
+## Features
+- Solar energy monitoring and analytics
+- Smart energy management system
+- Interactive dashboard with real-time data
+- Energy consumption optimization
 
-**Step 2:** Create a Virtual Environment
-bash# Create virtual environment
-python -m venv solarsmart_env
+## Live Demo
+🌐 **[View Live App](https://your-app-url-here.com)**
 
-# Activate it On Windows:
-solarsmart_env\Scripts\activate
+## Local Setup
 
-**Step 3:** Upgrade pip
-bashpython -m pip install --upgrade pip
+### Prerequisites
+- Python 3.13 or higher
+- pip package manager
 
-**Step 4:** Install Dependencies
-Save the updated requirements.txt file and install:
-bashpip install -r requirements.txt
+### Installation
 
-**Step 5:** Create the Main Application File
-Save the Python code: solarsmart_app.py
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Krishn-Limbachiya/Solar-Smart-App.git
+   cd Solar-Smart-App
+   ```
 
-**Step 6:** Run the Application
-bashstreamlit run solarsmart_app.py
+2. **Create a virtual environment**
+   ```bash
+   python -m venv solarsmart_env
+   ```
+
+3. **Activate the virtual environment**
+   - On Windows:
+     ```bash
+     solarsmart_env\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source solarsmart_env/bin/activate
+     ```
+
+4. **Upgrade pip**
+   ```bash
+   python -m pip install --upgrade pip
+   ```
+
+5. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+6. **Run the application**
+   ```bash
+   streamlit run solarsmart_app.py
+   ```
+
+7. **Open your browser**
+   - Navigate to `http://localhost:8501`
+
+## Project Structure
+```
+Solar-Smart-App/
+├── solarsmart_app.py       # Main application file
+├── requirements.txt        # Python dependencies
+├── README.md              # Project documentation
+└── data/                  # Data files (if any)
+```
+
+## Technology Stack
+- **Python 3.13**
+- **Streamlit** - Web framework
+- **Pandas** - Data manipulation
+- **NumPy** - Numerical computing
+- **Plotly** - Interactive visualizations
+
+## Contributing
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+- **Developer**: Krishn Limbachiya
+- **GitHub**: [@Krishn-Limbachiya](https://github.com/Krishn-Limbachiya)
+- **Project Link**: [Solar Smart App](https://github.com/Krishn-Limbachiya/Solar-Smart-App)
+
+## Deployment
+This app is deployed on [Platform Name] and automatically updates from the main branch.
