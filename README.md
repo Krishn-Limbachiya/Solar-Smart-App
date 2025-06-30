@@ -9,7 +9,8 @@ A smart solar energy management application built with Python and Streamlit.
 - Energy consumption optimization
 
 ## Live Demo
-🌐 **[View Live App]([https://solar-smart-app-uqdmqgxjkrkxr9zfuphwbc.streamlit.app/])**
+🌐 **[View Live App](https://solar-smart-app-uqdmqgxjkrkxr9zfuphwbc.streamlit.app/)**
+⚠️ **Note**: The live app is hosted on Streamlit Community Cloud. GitHub Pages shows documentation only.
 
 ## Local Setup
 
