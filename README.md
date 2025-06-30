@@ -22,5 +22,5 @@ bashpip install -r requirements.txt
 **Step 5:** Create the Main Application File
 Save the Python code: solarsmart_app.py
 
-Step 6: Run the Application
+**Step 6:** Run the Application
 bashstreamlit run solarsmart_app.py
